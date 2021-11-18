@@ -1,0 +1,25 @@
+﻿<Window x:Class="Practice_8.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Practice_8"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="circleSquareInput" HorizontalAlignment="Left" Margin="153,121,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="circlePerimetrInput" HorizontalAlignment="Left" Margin="153,80,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Площадь круга:" HorizontalAlignment="Left" Margin="41,76,0,0" VerticalAlignment="Top"/>
+        <Label Content="Периметр круга:" HorizontalAlignment="Left" Margin="36,117,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="rectangleSquareInput" HorizontalAlignment="Left" Margin="563,121,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="rectanglePerimetrInput" HorizontalAlignment="Left" Margin="563,80,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Площадь прямоугольника:" HorizontalAlignment="Left" Margin="400,80,0,0" VerticalAlignment="Top"/>
+        <Label Content="Периметр прямоугольника:" HorizontalAlignment="Left" Margin="395,117,0,0" VerticalAlignment="Top"/>
+        <Button Content="Создать круг" HorizontalAlignment="Left" Margin="176,186,0,0" VerticalAlignment="Top" Click="CreateCirlce_Click"/>
+        <Button Content="Создать прямоуглоьник" HorizontalAlignment="Left" Margin="555,186,0,0" VerticalAlignment="Top" Click="CreateRectangle_Click"/>
+        <Button Content="Сравнить фигуры" HorizontalAlignment="Left" Margin="304,267,0,0" VerticalAlignment="Top" Click="CompareFigures"/>
+        <Button Content="Выход" HorizontalAlignment="Left" Margin="583,364,0,0" VerticalAlignment="Top" Click="Exit"/>
+        <Button Content="О программе" HorizontalAlignment="Left" Margin="563,322,0,0" VerticalAlignment="Top" Click="Info"/>
+
+    </Grid>
+</Window>
